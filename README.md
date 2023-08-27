@@ -51,6 +51,14 @@ With the use of Seaborn's sns.heatmap() function, we generated a heatmap. The cm
 The shown values are formatted to two decimal places using the fmt parameter as is represented in the following plot.
 ![image](https://github.com/marcool5/Cyber/assets/54818211/9fda674d-29b4-432b-86e9-5a9e14a63fc1)
 
+# Pre-training
+For a pre-training using a ML the first step was create a pre-training model using machine learning models on the dataset that we have selected for this research, in this case the dataset is: UNSW_NB15_Training.
+We load the UNSW-NB15 training dataset and apply data preprocessing to it in a manner akin to that used for the testing dataset.
+For the data use we divide the training data into target labels (y_train) and feature (X_train) categories.
+Using the training set of data with the build a Random Forest classifier and train it.
+Using joblib.dump(), we store the trained model to a file called "traning_model.pkl"
+Following the execution of this code, a pre-trained Random Forest model will be saved in the "random_forest_model.pkl" file. This file can load and use to make predictions on the testing dataset as demonstrated in the preceding responses.
+
 
  
 
