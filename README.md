@@ -42,7 +42,6 @@ We use the training model to make predictions on the test set.
 Using accuracy, a confusion matrix, and a classification report, we assess the model's performance. 
 
 ![image](https://github.com/marcool5/Cyber/assets/54818211/081f0e2b-9c35-4c29-b43a-d8dd4ca74157)
-
 # Correlation Map
 For correlation we imported the Pandas library for the dataset UNSW-NB15.
 For the outcome results we selected the most relevant columns for correlation analysis. The columns selected in our analysis is: "dport" (destination port) and "attack_cat" (attack category).
@@ -50,7 +49,6 @@ For the outcome results we export a subset of the data that only includes the ch
 In this code we included the .corr() method that is used to calculate the correlation matrix.
 With the use of Seaborn's sns.heatmap() function, we generated a heatmap. The cmap argument determines the heatmap's color scheme, while the annot=True argument shows the correlation values on it.
 The shown values are formatted to two decimal places using the fmt parameter as is represented in the following plot.
-
 ![image](https://github.com/marcool5/Cyber/assets/54818211/9fda674d-29b4-432b-86e9-5a9e14a63fc1)
 
 
